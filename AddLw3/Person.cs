@@ -81,13 +81,13 @@ namespace AddLw3.Character
             switch (Specialization)
             {
                 case 0: // Воин
-                    HpBonus = 1.25;
+                    HpBonus = 2;
                     break;
                 case 1: // Маг
-                    DefenseBonus = 1.25;
+                    DefenseBonus = 2;
                     break;
                 case 2: // Вор
-                    DamageBonus = 1.25;
+                    DamageBonus = 2;
                     break;
             }
 
